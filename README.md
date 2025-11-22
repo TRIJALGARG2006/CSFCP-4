@@ -1,23 +1,24 @@
 # 🎮 Number Guessing Game
 
-A simple Python-based console game where the player tries to guess a randomly generated number. This project is part of **Assignment 04: Tools for Programming, Learning, and Collaboration**, implemented using VS Code, Git, and GitHub.
+A simple Python-based console game where the player tries to guess a randomly generated number.  
+This project is part of **Assignment 04: Tools for Programming, Learning, and Collaboration**, implemented using **VS Code**, **Git**, and **GitHub**.
 
 ## 📌 Project Overview
 
-The **Number Guessing Game** generates a random number and allows the user to guess it. After each guess, the game provides hints:
+The **Number Guessing Game** generates a random number and allows the user to guess it. After each guess, the program gives hints:
 
-* **Too High**
-* **Too Low**
-* **Correct Guess**
+- **Too High**
+- **Too Low**
+- **Correct Guess**
 
-This project demonstrates proper Git usage, documentation, and structured coding.
+This project demonstrates proper Git usage, documentation, and structured code design.
 
 ## 🧰 Technologies Used
 
-* **Python**
-* **Visual Studio Code**
-* **Git** (Version Control)
-* **GitHub** (Repository Hosting)
+- **Python**
+- **Visual Studio Code**
+- **Git** (Version Control)
+- **GitHub** (Repository Hosting)
 
 ## 📂 Repository Structure
 
@@ -28,92 +29,71 @@ CSFCP-4/
 ├── README.md        # Project documentation
 ├── test.md          # Local testing file (ignored)
 ├── test.py          # Temporary test file (ignored)
-└── .gitignore       # Files to exclude from tracking
+└── .gitignore       # Files excluded from tracking
+```
 
+## 🚀 How to Run the Game
 
+### 1. Install Python  
+Download Python from:  
+https://www.python.org/downloads/
 
-🚀 How to Run the Game
-1. Install Python Download Python from: https://www.python.org/downloads/
+### 2. Clone the Repository
 
-2. Clone the Repository Open your terminal and run:
+```bash
+git clone https://github.com/TRIJALGARG2006/CSFCP-4.git
+```
 
-Bash
+### 3. Navigate into the Project
 
-git clone [https://github.com/TRIJALGARG2006/CSFCP-4.git](https://github.com/TRIJALGARG2006/CSFCP-4.git)
-3. Navigate into the Project
-
-Bash
-
+```bash
 cd CSFCP-4
-4. Run the Game
+```
 
-Bash
+### 4. Run the Game
 
+```bash
 python number.py
-📝 Features
-✅ Random number generation
+```
 
-✅ Hint system (“Higher” / “Lower”)
+## 📝 Features
 
-✅ Input validation
+- Random number generation  
+- Hint system (“Higher” / “Lower”)  
+- Input validation  
+- Clean and commented code  
+- Beginner-friendly project structure  
 
-✅ Commented and clean code
+## 🛠 Git & GitHub Usage
 
-✅ Beginner-friendly structure
+### Git Commands Used
+- git init — Initialize repository  
+- git add . — Stage all changes  
+- git commit -m "message" — Commit changes  
+- git push origin main — Push to GitHub  
 
-📸 Screenshots
-🛠 Git & GitHub Usage (Assignment Requirements)
-Git Commands Used
-git init – Initialize repository
+### Example Commits
+- fixing tracking issue in test.py  
+- testing gitignore file commits  
+- added comments to the code  
+- added a number feature to the guess the number  
+- number guessing game  
 
-git add . – Stage changes
+## 📄 Documentation (docs/ folder)
 
-git commit -m "message" – Commit changes
+- project_overview.md  
+- development_process.md  
+- future_improvements.md  
 
-git push origin main – Push to GitHub
+## 🔮 Future Improvements
 
-Commit Examples From Repo
-fixing tracking issue in test.py
+- [ ] Add difficulty levels  
+- [ ] Add guess limits  
+- [ ] Display number of attempts  
+- [ ] Add GUI (Tkinter)  
+- [ ] Add scoring system  
 
-testing gitignore file commits
+## 👨‍💻 Author
 
-ADDED COMMENTS TO THE CODE
-
-ADDED A NUMBER FEATURE TO THE GUESS THE NUMBER
-
-number guessing game
-
-Note: This repository contains more than 5 meaningful commits, fulfilling assignment requirements.
-
-📄 Documentation (docs/ folder)
-project_overview.md
-
-development_process.md
-
-future_improvements.md
-
-🔮 Future Improvements
-[ ] Add difficulty levels
-
-[ ] Add guess limits
-
-[ ] Show number of attempts
-
-[ ] Add a GUI (Tkinter)
-
-[ ] Add scoring system
-
-👨‍💻 Author
-Trijal Garg
-
+**Trijal Garg**  
 GitHub: https://github.com/TRIJALGARG2006
-
-
-### How to use this:
-1.  Open your project in VS Code.
-2.  Create a file named `README.md` (or open the existing one).
-3.  Paste the content above into the file.
-4.  Save the file.
-5.  Push the changes to GitHub to see the formatted text.
-
-**Would you like me to also generate the text for the three documentation files mentioned (`
