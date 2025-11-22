@@ -1,9 +1,8 @@
 import random
+a = int(input("enter a number:"))
+secret_number = random.randint(1, a)
 
-
-secret_number = random.randint(1, 10)
-
-print("I am thinking of a number between 1 and 10.")
+print(f"I am thinking of a number between 1 and {a}.")
 
 while True: 
     guess = int(input("Guess the number: "))
